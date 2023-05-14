@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="colorPrimary">#1185E0</color>
+<color name="colorPrimaryDark">#1185E0</color>
+<color name="colorAccent">#1185E0</color>
+<color name="colorBackground">#1185E0</color>
+<color name="colorButton">#1185E0</color>
+    <color name="teal_200">#FF8A8A</color>
+    <color name="teal_700">#FF8A8A</color>
+    <color name="black">#FF000000</color>
+    <color name="chatme">#1185E0</color>
+    <color name="my_primarycolor">#F8D7D2</color>
+
+    <color name="blue">#8BC34A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#53D1B6</color>
+    <color name="red">#FB7181</color>
+    <color name="purple">#5C61F4</color>
+    <color name="yellow">#FFC833</color>
+    <color name="dark">#000000</color>
+    <color name="light">#ebf0ff</color>
+    <color name="grey">#6E6E6E</color>
+
+
+
+    <color name="recyclerViewItemSelectionColor">#50FF4081</color>
+    <color name="mediumEmphasisTextColor">#99000000</color>
+    <color name="highEmphasisTextColor">#de000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="textColor">#2B2B2B</color>
+
+</resources>

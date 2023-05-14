@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_outline_home_24"/>
+    <item
+        android:id="@+id/therapist"
+        android:title="Therapists"
+        android:icon="@drawable/ic_outline_self_improvement_24"/>
+    <item
+        android:id="@+id/person"
+        android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_bubble_outline_24"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_perm_identity_24"/>
+
+
+</menu>

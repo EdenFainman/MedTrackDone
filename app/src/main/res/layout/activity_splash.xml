@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SplashActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:textColor="#000"
+        android:id="@+id/im"
+        android:scaleType="fitCenter"
+        android:src="@drawable/aaad2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Med Track"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

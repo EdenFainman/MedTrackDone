@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckStockActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="My Medicine"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="Medicine Name"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:id="@+id/tvName"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="Generic Name"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+
+
+            >
+            <ImageView
+                android:id="@+id/im"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:src="@drawable/bri"
+                android:drawablePadding="@dimen/_2sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:hint="Dose"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoComplete|textAutoCorrect" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="Dose"
+            android:id="@+id/tvDose"
+
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+
+
+            >
+            <TextView
+                android:id="@+id/leaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:drawablePadding="@dimen/_2sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:hint="Tap to see patient leaflet"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoComplete|textAutoCorrect" />
+
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/tvStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:drawablePadding="@dimen/_2sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:hint="Stock"
+            android:textSize="@dimen/_15sdp"
+            android:imeOptions="actionSearch"
+            android:inputType="textAutoComplete|textAutoCorrect" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_checkstock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Check Stock"
+        />
+
+</RelativeLayout>
